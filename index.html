@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="codProduto">Código do Produto</label>
+                        <input type="text" name="codProduto" id="codProduto">
+                    </div>
+                    <div>
+                        <label for="nomeProduto">Nome do Produto</label>
+                        <input type="text" name="nomeProduto" id="nomeProduto">
+                    </div>
+                    <div>
+                        <label for="quant">Quantidade</label>
+                        <input type="text" name="quant" id="quant">
+                    </div>
+                    <div>
+                        <label for="precoProduto">Preço</label>
+                        <input type="text" name="precoProduto" id="precoProduto">
+                    </div>
+                    <div class="form_action--button">
+                        <input type="submit" value="Adcionar">
+                        <input type="reset" value="Limpar">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Código do Produto</th>
+                                <th>Nome do Produto</th>
+                                <th>Quantidade</th>
+                                <th>Preço</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

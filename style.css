@@ -1,0 +1,83 @@
+body{
+    background-image: url('background4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table{
+    width: 80%;
+    margin: 100px auto;
+    background-color: rgb(35, 104, 168);
+    border-radius: 10px;
+}
+
+table.list{
+    text-align: center;
+    width: 100%;
+}
+
+td{
+    border: 1px solid rgb(8, 62, 124);
+    text-align: left;
+    padding: 8px 15px;
+    border-radius: 10px;
+    color: rgb(255, 166, 0);
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+tr:nth-child(even), table.list thread> tr{
+    background-color: rgb(4, 114, 114);
+}
+
+input[type="text"], input[type="number"]{
+    width: 91%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(194, 226, 245);
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+input[type="submit"],input[type="reset"]{
+    background: rgb(214, 231, 230);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover{
+    background: rgb(13, 158, 62) ;
+    color: white;
+}
+
+input[type="reset"]:hover{
+    background: rgb(13, 158, 62)  ;
+    color: white;
+}
+
+button{
+    background: rgb(214, 231, 230);
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover{
+    background: rgb(238, 53, 7) ;
+    color: white; 
+}
